@@ -47,10 +47,10 @@ def array_of_array_products(arr):
   
   if n == 0 or n == 1:
     return []
-
+ 
   # Append intermediate products to start_array
   for i in range(n):
-    start_array.append(product)
+    start_array.append(product)-
     product *= arr[i]
     
   product = 1
